@@ -1,0 +1,43 @@
+{
+  "name": "e-connect-adm-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "eslint": "eslint ./lib/**/*.js --quiet",
+    "test": "mocha ./test/tdd/*test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freshhawks/e-connect-adm-api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-datastore": "^0.3.5",
+    "app-errorlist": "^0.3.5",
+    "app-restfetch": "^0.3.3",
+    "app-restfront": "^0.3.10",
+    "app-restguard": "^0.3.6",
+    "bcrypt": "^5.0.1",
+    "devebot": "^0.3.3",
+    "devebot-tools": "^0.2.0",
+    "e-connect-model": "git+https://github.com/freshhawks/e-connect-modelhub.git#b8efcdcfb0f8fa0e382692c7a40458fa48f231ee",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "slug": "^5.0.1",
+    "slugify": "^1.5.3"
+  },
+  "devDependencies": {
+    "chai-http": "^4.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "liberica": "^0.3.2",
+    "mocha": "^6.2.2"
+  }
+}
